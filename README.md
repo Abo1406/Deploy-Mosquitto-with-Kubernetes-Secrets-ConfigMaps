@@ -58,7 +58,9 @@ replicaset.apps/mosquitto-7ddc67b6cd   2         2         2       5m
 ```
 ### Configuration Details
 ConfigMap (config-file.yml)
+
 Mounts to: /mosquitto/config
+
 Configuration parameters:
 ```bash
 log_dest stdout     # Output logs to standard output
